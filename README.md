@@ -2,7 +2,7 @@
 
 ## Overview
 
-This driver is a hastily hacked-together version of [Pimironi's original driver](https://github.com/pimoroni/ltp305-python) 
+This driver is a hastily hacked-together version of @pimironi's [original driver](https://github.com/pimoroni/ltp305-python) 
 that removes the reliance on the `smbus` library. Instead, this version makes use of the Pico's `machine.I2C` package to
 drive the breakout board.
 
